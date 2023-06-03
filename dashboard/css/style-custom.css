@@ -1,0 +1,28 @@
+ul {
+	list-style: none;
+}
+.action {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+ul.action li {
+	padding: 0px 10px 0px 0px;
+}
+
+.f-control {
+	display: flex;
+	flex-direction: column;
+}
+
+.object-cover img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.thumbnail {
+	width: 60px;
+	height: 60px;
+}
